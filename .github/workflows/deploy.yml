@@ -28,7 +28,9 @@ jobs:
           cache: 'npm'
       
       - name: Install dependencies
-        run: npm ci
+        run: |
+          npm ci
+          npm install --package-lock-only
       
       - name: Type check
         run: npm run type-check
@@ -51,6 +53,10 @@ jobs:
         run: |
           if ! grep -q '"build": "next build"' package.json; then
             echo "❌ package.json must include 'build' script"
+            exit 1
+          fi
+          if [ ! -f "package-lock.json" ]; then
+            echo "❌ package-lock.json is missing"
             exit 1
           fi
 
