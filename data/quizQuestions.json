@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "question": "When faced with a new challenge, you most want to…",
+    "options": {
+      "A": { "label": "Feel completely safe before acting.", "archetype": "guardian" },
+      "B": { "label": "Forge your own path free of rules.",  "archetype": "seeker"   },
+      "C": { "label": "Show everyone you can master it.",       "archetype": "sovereign" },
+      "D": { "label": "Dream up wild possibilities first.",   "archetype": "visionary" }
+    }
+  },
+  {
+    "id": 2,
+    "question": "Your biggest worry in a group project is…",
+    "options": {
+      "A": { "label": "Being invisible or ignored.",          "archetype": "spotlight" },
+      "B": { "label": "Having to make the tough calls alone.", "archetype": "servant"   },
+      "C": { "label": "That you’ll be blamed if things go wrong.", "archetype": "partner"  },
+      "D": { "label": "Losing control over direction.",        "archetype": "sovereign" }
+    }
+  },
+  {
+    "id": 3,
+    "question": "You recharge by…",
+    "options": {
+      "A": { "label": "Letting go of past burdens.",       "archetype": "wanderer" },
+      "B": { "label": "Helping someone else decide.",       "archetype": "partner"  },
+      "C": { "label": "Planning your next big goal.",       "archetype": "seeker"   },
+      "D": { "label": "Practicing a bold new skill.",      "archetype": "rebel"    }
+    }
+  },
+  {
+    "id": 4,
+    "question": "Your friends would call you…",
+    "options": {
+      "A": { "label": "Reliable and protective.",           "archetype": "guardian" },
+      "B": { "label": "Spontaneous and unfocused.",         "archetype": "seeker"   },
+      "C": { "label": "Ambitious and commanding.",          "archetype": "sovereign" },
+      "D": { "label": "Gentle and supportive.",             "archetype": "servant"  }
+    }
+  },
+  {
+    "id": 5,
+    "question": "When someone criticizes you, you feel…",
+    "options": {
+      "A": { "label": "Ashamed and tempted to hide.",      "archetype": "spotlight" },
+      "B": { "label": "Fired up to prove them wrong.",      "archetype": "rebel"     },
+      "C": { "label": "Concerned about hurting their feelings.", "archetype": "partner" },
+      "D": { "label": "Motivated to refine your vision.",   "archetype": "visionary" }
+    }
+  },
+  {
+    "id": 6,
+    "question": "In a crisis you instinctively…",
+    "options": {
+      "A": { "label": "Shield others and keep order.",      "archetype": "guardian" },
+      "B": { "label": "Look for an escape route.",          "archetype": "wanderer"  },
+      "C": { "label": "Take charge and delegate.",          "archetype": "sovereign" },
+      "D": { "label": "Listen for new creative solutions.", "archetype": "visionary" }
+    }
+  },
+  {
+    "id": 7,
+    "question": "Your ideal weekend activity…",
+    "options": {
+      "A": { "label": "Quiet retreat to process thoughts.",  "archetype": "wraith"    },
+      "B": { "label": "Collaborative brainstorm session.",   "archetype": "partner"  },
+      "C": { "label": "Volunteering to support a cause.",    "archetype": "servant"  },
+      "D": { "label": "Networking event to expand influence.","archetype": "sovereign"}
+    }
+  },
+  {
+    "id": 8,
+    "question": "What you need most right now is…",
+    "options": {
+      "A": { "label": "A clear plan of action.",           "archetype": "seeker"   },
+      "B": { "label": "Reassurance you belong.",           "archetype": "spotlight"},
+      "C": { "label": "Permission to rest and heal.",      "archetype": "wraith"   },
+      "D": { "label": "Freedom to challenge norms.",       "archetype": "rebel"    }
+    }
+  },
+  {
+    "id": 9,
+    "question": "You resent people who…",
+    "options": {
+      "A": { "label": "Take without giving back.",         "archetype": "equalizer"},
+      "B": { "label": "Question your authority.",          "archetype": "sovereign"},
+      "C": { "label": "Force you into choices.",           "archetype": "partner"  },
+      "D": { "label": "Ignore your vision.",               "archetype": "visionary"}
+    }
+  },
+  {
+    "id": 10,
+    "question": "Your secret aspiration is…",
+    "options": {
+      "A": { "label": "To never feel powerless again.",   "archetype": "guardian" },
+      "B": { "label": "To reinvent yourself completely.", "archetype": "wanderer" },
+      "C": { "label": "To be seen as a true leader.",     "archetype": "sovereign"},
+      "D": { "label": "To turn dreams into reality.",     "archetype": "visionary"}
+    }
+  },
+  {
+    "id": 11,
+    "question": "When someone needs help, you…",
+    "options": {
+      "A": { "label": "Step up and take control.",        "archetype": "guardian" },
+      "B": { "label": "Ask “What would you like me to do?”","archetype": "partner"  },
+      "C": { "label": "Offer them a path forward.",       "archetype": "seeker"   },
+      "D": { "label": "Encourage them to find their own strength.","archetype":"servant"}
+    }
+  },
+  {
+    "id": 12,
+    "question": "Your inner critic often says…",
+    "options": {
+      "A": { "label": "“You’re not doing enough.”",       "archetype": "sovereign"},
+      "B": { "label": "“No one notices you.”",            "archetype": "spotlight"},
+      "C": { "label": "“You should just give up.”",       "archetype": "wraith"   },
+      "D": { "label": "“Your ideas are unrealistic.”",    "archetype": "visionary"}
+    }
+  },
+  {
+    "id": 13,
+    "question": "You feel most alive when…",
+    "options": {
+      "A": { "label": "Breaking free of constraints.",    "archetype": "wanderer" },
+      "B": { "label": "Building something useful for others.","archetype":"servant"},
+      "C": { "label": "Standing in the spotlight.",       "archetype": "spotlight"},
+      "D": { "label": "Overcoming a personal fear.",      "archetype": "guardian" }
+    }
+  },
+  {
+    "id": 14,
+    "question": "You avoid situations where you might…",
+    "options": {
+      "A": { "label": "Be responsible for others’ feelings.","archetype":"partner"},
+      "B": { "label": "Be trapped with no way out.",       "archetype":"wanderer"},
+      "C": { "label": "Lose face in public.",              "archetype":"spotlight"},
+      "D": { "label": "Have no control over outcome.",     "archetype":"sovereign"}
+    }
+  },
+  {
+    "id": 15,
+    "question": "Your leadership style is…",
+    "options": {
+      "A": { "label": "Protective guardian.",             "archetype":"guardian"},
+      "B": { "label": "Hands-off guide.",                 "archetype":"partner"},
+      "C": { "label": "Visionary catalyst.",              "archetype":"visionary"},
+      "D": { "label": "Directive commander.",             "archetype":"sovereign"}
+    }
+  }
+]
