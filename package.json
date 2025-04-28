@@ -4,7 +4,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "export": "next export",
+    "deploy": "npm run build && git add out/ && git commit -m 'Deploy to GitHub Pages' && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "next": "latest",
@@ -12,6 +16,9 @@
     "react-dom": "latest"
   },
   "devDependencies": {
-    "typescript": "latest"
+    "typescript": "latest",
+    "@types/react": "latest",
+    "@types/node": "latest",
+    "eslint": "latest"
   }
 }
