@@ -27,9 +27,12 @@ jobs:
           node-version: "18"
           cache: 'npm'
       
-      - name: Install dependencies
+      - name: Clean install dependencies
         run: |
-          npm ci
+          npm cache clean --force
+          rm -rf node_modules
+          rm -f package-lock.json
+          npm install
           npm install --package-lock-only
       
       - name: Type check
@@ -73,8 +76,12 @@ jobs:
           node-version: "18"
           cache: 'npm'
       
-      - name: Install dependencies
-        run: npm ci
+      - name: Clean install dependencies
+        run: |
+          npm cache clean --force
+          rm -rf node_modules
+          rm -f package-lock.json
+          npm install
       
       - name: Build with Next.js
         run: npm run build
