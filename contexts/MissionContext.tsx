@@ -1,4 +1,4 @@
-import React, { createContext, useState } from 'react';
+import React, { createContext, useState, PropsWithChildren } from 'react';
 
 type MissionContextType = {
   missions: any[];
@@ -6,7 +6,7 @@ type MissionContextType = {
 
 export const MissionContext = createContext<MissionContextType>({ missions: [] });
 
-export const MissionProvider: React.FC = ({ children }) => {
+export const MissionProvider = ({ children }: PropsWithChildren<{}>) => {
   const [missions, setMissions] = useState([]);
 
   return (

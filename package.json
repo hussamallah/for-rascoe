@@ -1,18 +1,18 @@
 {
-  "name": "ground-zero",
-  "version": "1.0.0",
+  "name": "birds-eyes-view",
+  "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "type-check": "tsc --noEmit",
-    "clean": "rm -rf .next out node_modules package-lock.json",
-    "clean-install": "npm run clean && npm install"
+    "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.1.0",
+    "next": "^15.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -20,11 +20,8 @@
     "@types/node": "^20.11.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
-    "typescript": "^5.3.0",
     "eslint": "^8.56.0",
-    "eslint-config-next": "14.1.0"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "eslint-config-next": "14.1.0",
+    "typescript": "^5.3.0"
   }
 }
