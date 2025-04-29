@@ -1,0 +1,46 @@
+{
+  "chambers": [
+    {
+      "id": 1,
+      "name": "The Sage",
+      "description": "Seeker of truth and wisdom",
+      "path": "sage"
+    },
+    {
+      "id": 2,
+      "name": "The Warrior",
+      "description": "Champion of courage and strength",
+      "path": "warrior"
+    },
+    {
+      "id": 3,
+      "name": "The Creator",
+      "description": "Master of innovation and creativity",
+      "path": "creator"
+    },
+    {
+      "id": 4,
+      "name": "The Caregiver",
+      "description": "Guardian of compassion and nurture",
+      "path": "caregiver"
+    },
+    {
+      "id": 5,
+      "name": "The Explorer",
+      "description": "Adventurer of new horizons",
+      "path": "explorer"
+    },
+    {
+      "id": 6,
+      "name": "The Ruler",
+      "description": "Leader of order and control",
+      "path": "ruler"
+    },
+    {
+      "id": 7,
+      "name": "The Magician",
+      "description": "Transformer of reality",
+      "path": "magician"
+    }
+  ]
+} 
