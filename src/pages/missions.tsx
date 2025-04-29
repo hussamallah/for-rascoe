@@ -38,13 +38,11 @@ export default function Missions() {
                 <div
                   key={chamber.id}
                   onClick={() => handleChamberClick(chamber.path, isUnlocked)}
-                  className={`
-                    relative overflow-hidden rounded-lg p-6 cursor-pointer
-                    transition-all duration-500 transform hover:scale-105
-                    ${isUnlocked 
+                  className={`relative overflow-hidden rounded-lg p-6 cursor-pointer transition-all duration-500 transform hover:scale-105 ${
+                    isUnlocked
                       ? 'bg-gradient-to-r from-purple-600 to-indigo-600 animate-pulse'
-                      : 'bg-gray-800 hover:bg-gray-700'}
-                  `}
+                      : 'bg-gray-800 hover:bg-gray-700'
+                  }`}
                 >
                   <h2 className="text-2xl font-bold mb-2">{chamber.name}</h2>
                   <p className="text-gray-300 mb-4">{chamber.description}</p>
